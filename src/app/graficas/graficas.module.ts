@@ -7,8 +7,6 @@ import { BarrasDobleComponent } from './pages/barras-doble/barras-doble.componen
 import { CircularComponent } from './pages/circular/circular.component';
 import { CircularHttpComponent } from './pages/circular-http/circular-http.component';
 import { GraficaBarraComponent } from './components/grafica-barra/grafica-barra.component';
-import { GraficasComponent } from './services/graficas/graficas.component';
-
 
 @NgModule({
   declarations: [
@@ -16,8 +14,7 @@ import { GraficasComponent } from './services/graficas/graficas.component';
     BarrasDobleComponent,
     CircularComponent,
     CircularHttpComponent,
-    GraficaBarraComponent,
-    GraficasComponent
+    GraficaBarraComponent
   ],
   imports: [
     CommonModule,
